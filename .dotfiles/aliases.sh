@@ -1,7 +1,5 @@
 # Colorized
-alias less='less --RAW-CONTROL-CHARS'
-export LS_OPTS='--color=auto'
-alias ls='ls ${LS_OPTS}'
+alias ls='ls -G '
 
 # Git aliases
 alias gri="git rebase -i"
@@ -13,5 +11,6 @@ alias gm="git merge --no-ff"
 alias gmc="git merge --continue"
 alias gca="git commit --amend"
 alias gco="git checkout"
+alias gs="git status"
 alias glog="git log --graph --oneline --branches --tags"
 alias gpf="git push --force-with-lease"

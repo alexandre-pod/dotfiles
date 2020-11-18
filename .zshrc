@@ -29,6 +29,10 @@ prepend_path_always() {
 }
 # prepend_path ~/.local/go/bin
 
+# Paths
+prepend_path ~/.local/bin
+
+# Aliases
 if [ -f ~/.dotfiles/aliases.sh ]; then
   source ~/.dotfiles/aliases.sh
 fi
