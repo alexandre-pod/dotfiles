@@ -1,0 +1,9 @@
+[core]
+	excludesfile = /Users/alexandre/.gitignore_global
+
+[user]
+	name = alexandre-pod
+	email = 24512899+alexandre-pod@users.noreply.github.com
+
+[rebase]
+        autosquash = true
